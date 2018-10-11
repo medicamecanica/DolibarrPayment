@@ -70,6 +70,7 @@ public class InvoiceDetailActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
         if (id == android.R.id.home) {
+            
             // This ID represents the Home or Up button. In the case of this
             // activity, the Up button is shown. Use NavUtils to allow users
             // to navigate up one level in the application structure. For
