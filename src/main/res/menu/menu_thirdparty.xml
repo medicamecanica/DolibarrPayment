@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="co.medicamecanica.dolibarrpayment.thirdpartyListActivity">
+    <item
+        android:id="@+id/search"
+        app:actionViewClass="android.widget.SearchView"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search_title"
+        app:showAsAction="ifRoom|collapseActionView" />
+    <group >
+
+        <item android:title="Actualizar Clientes"
+            android:id="@+id/resync" />
+        <item
+            android:id="@+id/login"
+            android:title="Iniciar Sesión" />
+        <item
+            android:title="Manual"
+            android:id="@+id/manual"
+            android:visible="true" />
+    </group>
+</menu>

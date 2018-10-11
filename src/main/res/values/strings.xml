@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Dolibarr Payment</string>
+    <string name="title_thirdparty_detail">thirdparty Detail</string>
+    <string name="search_title">Buscar</string>
+    <string name="search_hint">Nombre, CC o RUT</string>
+    <string name="title_invoice_list">invoices</string>
+    <string name="title_invoice_detail">Invoice Detail</string>
+</resources>
